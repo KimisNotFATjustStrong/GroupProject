@@ -16,8 +16,8 @@
         android:layout_constraintLeft_toLeftOf="parent"
         android:layout_constraintRight_toRightOf="parent"
         android:layout_constraintTop_toTopOf="parent"
-        android:layout_marginStart="31dp"
-        android:layout_marginTop="71dp"
+        android:layout_marginStart="253dp"
+        android:layout_marginTop="184dp"
         android:ayout_constraintBottom_toBottomOf="parent"
         android:text="Hello World!" />
 
@@ -41,5 +41,15 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="202dp"
         android:text="Button" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="166dp"
+        android:layout_height="122dp"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginBottom="-178dp"
+        android:text="toby" />
 
 </RelativeLayout>
