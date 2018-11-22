@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">GroupProject</string>
+
+
+
+    <string name="FACEBOOK_APP_ID">184117955859500</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">090e59241dbb27f93e0fbb1b2ee4dc2c</string>
+
 </resources>
