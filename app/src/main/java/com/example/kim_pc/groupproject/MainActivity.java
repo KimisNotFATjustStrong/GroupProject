@@ -4,10 +4,9 @@ import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.Signature;
-import android.support.annotation.CheckResult;
+import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Base64;
 import android.util.Log;
@@ -117,9 +116,9 @@ public class MainActivity extends AppCompatActivity {
                                             }
                                             else
                                             {
-                                               alertDialog.dismiss();
+                                                alertDialog.dismiss();
 
-                                               showRegisterDialog(account.getPhoneNumber().toString());
+                                                showRegisterDialog(account.getPhoneNumber().toString());
                                             }
                                         }
 
